@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(39, 5, 53);
+    color: white;
+}
+a {
+
+    text-decoration: none;
+}
+img {
+    border-radius: 15px;
+    
+}
+.col {
+    background-color: rgb(33, 0, 42);
+    margin: 1px;
+    border-radius: 10px;
+}
