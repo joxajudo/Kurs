@@ -61,7 +61,7 @@ background: linear-gradient(90deg, rgb(33, 117, 110) 0%,  rgb(0, 48, 50) 100%);"
 <div class="container  text-center" style="height: 400px">
     <div class="row my-4">
         {% for i in product %}
-        <div class="col pt-4 mt-4 mx-3" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="col pt-4 mt-4 mx-4" data-aos="zoom-in" data-aos-duration="1000">
             <a href="{% url 'product_detail' i.id %}"><img src="{{ i.image.url }}" style="height: 250px"
                                        alt="">
                 <p>{{ i.name }}</p>
